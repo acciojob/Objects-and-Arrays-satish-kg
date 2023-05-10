@@ -18,7 +18,8 @@ let team1 = {};
 for(let key in players){
 	team1[key] = players[key];
 }
-let cap1 = {};
-for(let key in person){
-	cap1[key] = person[key];
-}
+let cap1 = person;
+// let cap1 = {};
+// for(let key in person){
+// 	cap1[key] = person[key];
+// }
